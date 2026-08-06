@@ -1,0 +1,181 @@
+/*=====================================================
+            LOGIN - NUEVO MONBRE
+======================================================*/
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:linear-gradient(135deg,#fff8ef,#fde9d7);
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-container{
+
+    width:430px;
+
+    background:#ffffff;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.20);
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:180px;
+
+    margin-bottom:20px;
+
+}
+
+h1{
+
+    color:#6b3414;
+
+    margin-bottom:10px;
+
+}
+
+.subtitulo{
+
+    color:#8b4513;
+
+    margin-bottom:30px;
+
+}
+
+.formulario{
+
+    text-align:left;
+
+}
+
+.formulario label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+    color:#444;
+
+}
+
+.formulario input,
+
+.formulario select{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+.formulario input:focus,
+
+.formulario select:focus{
+
+    outline:none;
+
+    border-color:#8b4513;
+
+    box-shadow:0 0 8px rgba(139,69,19,.25);
+
+}
+
+.recordar{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-top:20px;
+
+}
+
+.recordar input{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+button{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#6b3414;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#8b4513;
+
+    transform:translateY(-3px);
+
+}
+
+.footer{
+
+    margin-top:30px;
+
+    color:#777;
+
+    font-size:14px;
+
+}
